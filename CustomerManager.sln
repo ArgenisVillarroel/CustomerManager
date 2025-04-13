@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.35906.104 d17.14
+VisualStudioVersion = 17.14.35906.104
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManager.UI", "CustomerManager.UI\CustomerManager.UI.csproj", "{D85A7F88-A18F-4FF2-B3AF-4F17E0BF7D89}"
 EndProject
@@ -13,6 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManager.Entities", "CustomerManager.Entities\CustomerManager.Entities.csproj", "{942AF6ED-164E-4F17-8F93-5EE07ECD6682}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C6E68424-69D3-4001-87AB-EAD0C3CFA500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManager.Entities.UnitTests", "CustomerManager.Entities.UnitTests\CustomerManager.Entities.UnitTests.csproj", "{581324BB-CDA9-4315-9119-0B1CC6177EEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,9 +34,18 @@ Global
 		{942AF6ED-164E-4F17-8F93-5EE07ECD6682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{942AF6ED-164E-4F17-8F93-5EE07ECD6682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{942AF6ED-164E-4F17-8F93-5EE07ECD6682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581324BB-CDA9-4315-9119-0B1CC6177EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581324BB-CDA9-4315-9119-0B1CC6177EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581324BB-CDA9-4315-9119-0B1CC6177EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581324BB-CDA9-4315-9119-0B1CC6177EEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D85A7F88-A18F-4FF2-B3AF-4F17E0BF7D89} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{942AF6ED-164E-4F17-8F93-5EE07ECD6682} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{581324BB-CDA9-4315-9119-0B1CC6177EEC} = {C6E68424-69D3-4001-87AB-EAD0C3CFA500}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E5D1234-476A-443E-B092-6885D4D5C04D}
