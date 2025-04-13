@@ -2,7 +2,7 @@
 
 Console.WriteLine("Bienvenido a Administrador de Clientes");
 
-Customer customerTest = Customer.Instance(1, "Argenis", "Villarroel", "Desconocida", "Contado", Environment.UserName);
+Customer customerTest = Customer.Instance(1, "Argenis", "Villarroel", CustomerType.Instance(1, "Contado"), "otro", Environment.UserName);
 
 Console.WriteLine(customerTest.FullName);
 Console.WriteLine(customerTest.AuditInfo);

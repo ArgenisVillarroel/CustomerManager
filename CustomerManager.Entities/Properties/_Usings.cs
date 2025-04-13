@@ -1,1 +1,1 @@
-﻿
+﻿global using CustomerManager.Entities.Base;
